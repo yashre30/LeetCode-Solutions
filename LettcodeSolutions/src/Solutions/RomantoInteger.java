@@ -1,8 +1,6 @@
 package Solutions;
 
 public class RomantoInteger {
-
-	class Solution {
 	    public int romanToInt(String s) {
 	        HashMap<Character,Integer> map = new HashMap<>();
 	        map.put('I',1);
@@ -24,4 +22,4 @@ public class RomantoInteger {
 	        return res;
 	    }
 	}
-}
+
